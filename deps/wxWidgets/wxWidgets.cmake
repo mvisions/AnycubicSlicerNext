@@ -24,7 +24,8 @@ endif()
 
 AnycubicSlicer_add_cmake_project(
     wxWidgets
-    GIT_REPOSITORY "http://192.168.2.20/r/~liuchunlin/dep_orca_wxwidgets.git"
+    GIT_REPOSITORY "https://github.com/SoftFever/Orca-deps-wxWidgets"
+    GIT_TAG orca-3.1.5-1
     GIT_SHALLOW ON
     DEPENDS ${PNG_PKG} ${ZLIB_PKG} ${EXPAT_PKG} ${TIFF_PKG} ${JPEG_PKG} ${CURL_PKG}
     CMAKE_ARGS
