@@ -7008,7 +7008,7 @@ bool GUI_App::open_browser_with_warning_dialog(const wxString& url, int flags/* 
 
 void GUI_App::open_telegram_support()
 {
-    const wxString url = "https://t.me/anycubic";
+    const wxString url = "http://t.me/anycubic";
     if (!wxLaunchDefaultBrowser(url, wxBROWSER_NEW_WINDOW))
         BOOST_LOG_TRIVIAL(error) << "Failed to open Telegram support URL: " << url.ToUTF8().data();
 }

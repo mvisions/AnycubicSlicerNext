@@ -47,7 +47,7 @@ and G-code is not modified.
 ## Telegram support
 
 The Telegram button in the top bar (Windows and Linux) and **Help > Telegram
-Support** (all platforms) open [t.me/anycubic](https://t.me/anycubic) in the
+Support** (all platforms) open [t.me/anycubic](http://t.me/anycubic) in the
 default web browser.
 
 # License
